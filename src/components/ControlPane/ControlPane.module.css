@@ -10,6 +10,9 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+  /* clip the rounded borders */
+  overflow: hidden;
 }
 
 .title {
