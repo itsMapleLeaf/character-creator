@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react"
 
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css"
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      All character assets taken from{' '}
+      All character assets taken from{" "}
       <a
         href="https://www.openpeeps.com/"
         target="_blank"
@@ -15,7 +15,7 @@ const Footer = () => {
       </a>
       , by Pablo Stanley
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

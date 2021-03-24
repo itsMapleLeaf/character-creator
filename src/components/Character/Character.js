@@ -1,15 +1,8 @@
-import React from 'react';
+import React from "react"
 
-import styles from './Character.module.css';
+import styles from "./Character.module.css"
 
-function Character({
-  body,
-  head,
-  face,
-  accessory,
-  skinColor,
-  clothesColor,
-}) {
+function Character({ body, head, face, accessory, skinColor, clothesColor }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -487,9 +480,7 @@ function Character({
           )}
         </g>
         <g>
-          {accessory === 0 && (
-            <>{/* The default option is "no accessory" */}</>
-          )}
+          {accessory === 0 && <>{/* The default option is "no accessory" */}</>}
           {accessory === 1 && (
             <path
               fill="#000"
@@ -537,7 +528,7 @@ function Character({
         </g>
       </g>
     </svg>
-  );
+  )
 }
 
-export default Character;
+export default Character

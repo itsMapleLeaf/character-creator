@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react"
 
-import ToggleButton from '../ToggleButton';
-import ButtonRow from '../ButtonRow';
+import ToggleButton from "../ToggleButton"
+import ButtonRow from "../ButtonRow"
 
-import styles from './ControlPane.module.css';
+import styles from "./ControlPane.module.css"
 
 const ControlPane = ({
   title,
@@ -17,9 +17,7 @@ const ControlPane = ({
       <h2 className={styles.title}>
         {title}
 
-        <span className={styles.metadata}>
-          {options.length} options
-        </span>
+        <span className={styles.metadata}>{options.length} options</span>
       </h2>
       <ButtonRow>
         {options.map(({ id, label, color, children }) => (
@@ -35,7 +33,7 @@ const ControlPane = ({
         ))}
       </ButtonRow>
     </div>
-  );
-};
+  )
+}
 
-export default ControlPane;
+export default ControlPane
