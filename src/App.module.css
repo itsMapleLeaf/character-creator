@@ -1,0 +1,8 @@
+.shade {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  background: hsl(195deg, 20%, 86%);
+}
